@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AdTech Solutions</title>
+  <link rel="stylesheet" href="Adtech.css" />
+  <style>
+   body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.3;
+    }
+
+    header {
+      background: #0a0a23;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .cta-button {
+      background: #007bff;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .features, .how-it-works {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .feature, .step {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      flex: 1 1 250px;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    
+    }
+
+    #w-w{
+      text-align: center;
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 20px;
+      text-shadow: 10px 05px 0px #ccc;
+    }
+
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+    }
+  #hello-43{
+     text-align: center;
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin-top: 20px;
+    background-color: rgb(137, 136, 136);
+  }
+  #what{
+    text-shadow: 10px 10px 0px #cacaca;
+  }
+
+ </style>   
+</head>
+<body>
+
+  <header>
+    <h1>Next-Gen Advertising Tech</h1>
+    <p>Boost reach, lower cost, and target smarter — powered by AI.</p>
+    <a href="#contact" class="cta-button">Request Demo</a>
+  </header>
+
+  <section>
+    <h2 id="what">What We Do</h2>
+    <p>We help businesses improve ad performance using data-driven algorithms, real-time insights, and automated optimization tools.</p>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>AI-Powered Targeting</h3>
+        <p>Reach the right audience with machine learning.</p>
+      </div>
+      <div class="feature">
+        <h3>Live Analytics</h3>
+        <p>Track your campaigns in real-time with actionable data.</p>
+      </div>
+      <div class="feature">
+        <h3>Smart Optimization</h3>
+        <p>Lower your ad spend and increase conversions automatically.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="how-it-works">
+      <div class="step">
+        <h3>Step 1</h3>
+        <p>Connect your campaigns</p>
+      </div>
+      <div class="step">
+        <h3>Step 2</h3>
+        <p>We analyze performance</p>
+      </div>
+      <div class="step">
+        <h3>Step 3</h3>
+        <p>Automated optimization begins</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-w">
+    <h2 id="w-w">Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <textarea rows="5" placeholder="Tell us about your ad goals..."></textarea>
+      <button type="submit"  class="cta-button"> <a href="https.google.com" src="google"> Send Message </a>  </button>
+    </form>
+   <p id="hello-43"> Hello!<br>
+    If you want to work with me Text me on<br>
+    Email : yeroneee133@gmail.com
+    Instagram : tazma_cheto<br>
+  </p>
+  </section>
+
+  <footer>
+    <p>© 2025 AdTech Solutions. All rights reserved.<br>
+      Creator name : Yeron Esayas
+    </p>
+  </footer>
+<script src="Adtech.js"></script>
+<script>
+  // Smooth scroll effect
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
+  });
+});
+
+console.dir("document");
+  document.body.style.backgroundColor = ("white")
+</script>
+</body>
+</html>
